@@ -1,34 +1,32 @@
+基于HTML5技术的漂亮的富文本编译器WYSIWYG
+https:/www.froala.com/wysiwyg-editor
+
 ![WYSIWYG HTML Editor](https://raw.githubusercontent.com/froala/wysiwyg-editor/master/editor.jpg)
-
 ​
 
-# [Froala Editor](https://www.froala.com/wysiwyg-editor) [![Build Status](https://travis-ci.com/froala-labs/froala-editor-js-2.svg?token=6qHm2TpvBKAAVFCrJa9X&branch=master)](https://travis-ci.com/froala-labs/froala-editor-js-2)
+# [Froala Editor](https://www.froala.com/wysiwyg-editor) 
 
-Froala WYSIWYG HTML Editor is one of the most powerful JavaScript rich text editors ever.
+Froala WYSIWYG HTML 编辑器是一款有史以来最强大的JavaScript富文本编辑器。
 
-- Slim - only add the plugins that you need ([30+ official plugins](https://www.froala.com/wysiwyg-editor/docs/plugins))
-- [Client frameworks integrations](https://www.froala.com/wysiwyg-editor/docs/framework-plugins/)
-- Server side SDKs for [PHP](https://www.froala.com/wysiwyg-editor/docs/sdks/php), [Node.JS](https://www.froala.com/wysiwyg-editor/docs/sdks/nodejs),  [.NET](https://www.froala.com/wysiwyg-editor/docs/sdks/dotnet), [Java](https://www.froala.com/wysiwyg-editor/docs/sdks/java), and [Python](https://www.froala.com/wysiwyg-editor/docs/sdks/python)
-- Code is well commented
-- [Online documentation](https://www.froala.com/wysiwyg-editor/docs) up to date
-- Simple to extend - the plugins are all well commented and simple to use as a basis for your own plugins
-- Well maintained - [frequent releases](https://www.froala.com/wysiwyg-editor/changelog)
-- Great support - [Help Center](https://wysiwyg-editor.froala.help)
-
+- 微小 - 只需添加您需要的插件([30+ 官方插件](https://www.froala.com/wysiwyg-editor/docs/plugins))
+- [客户端框架集成](https://www.froala.com/wysiwyg-editor/docs/framework-plugins/)
+- 可以向如 [PHP](https://www.froala.com/wysiwyg-editor/docs/sdks/php), [Node.JS](https://www.froala.com/wysiwyg-editor/docs/sdks/nodejs),  [.NET](https://www.froala.com/wysiwyg-editor/docs/sdks/dotnet), [Java](https://www.froala.com/wysiwyg-editor/docs/sdks/java), 和 [Python](https://www.froala.com/wysiwyg-editor/docs/sdks/python)提供服务端开发工具包
+- 代码注释精美
+- [在线文档更新](https://www.froala.com/wysiwyg-editor/docs)
+- 简单可扩展- 良好的插件注释使你更容易使用和开发自己的插件
+- 良好的维护 - [持续更新](https://www.froala.com/wysiwyg-editor/changelog)
+- 很好的支持 - [帮助中心](https://wysiwyg-editor.froala.help)
 ​
 
+## 演示
 
-## Demos
-
-- **Basic demo**: https://www.froala.com/wysiwyg-editor
-- **Inline demo**: https://www.froala.com/wysiwyg-editor/inline
-- **Full list**: https://www.froala.com/wysiwyg-editor/examples
-
+- **基本演示**: https://www.froala.com/wysiwyg-editor
+- **在线演示**: https://www.froala.com/wysiwyg-editor/inline
+- **完整列表**: https://www.froala.com/wysiwyg-editor/examples
 ​
+## 开始使用
 
-## Get Started
-
-Froala WYSIWYG HTML Editor requires [jQuery](http://jquery.com/) 1.11.0 or higher and the iconic font named [Font Awesome](http://fortawesome.github.io/Font-Awesome/) 4.4.0. You may also use older versions of Font Awesome, but some of the editor's icons will not appear. 
+Froala WYSIWYG HTML编辑器需要[jQuery](http://jquery.com/) 1.11.0或更高版本，以及名为[Font Awesome](http://fortawesome.github.io/Font-Awesome/) 4.4.0的图标字体。您也可以使用旧版本的Font Awesome，但是某些编辑器的图标不会出现。 
 
 ```html
 <!-- Include CSS for icons. -->
@@ -55,12 +53,9 @@ Froala WYSIWYG HTML Editor requires [jQuery](http://jquery.com/) 1.11.0 or highe
   }); 
 </script>
 ```
-
-For more details on customizing the editor, please check the editor [documentation](https://www.froala.com/wysiwyg-editor/docs).
-
-​
-
-## Download
+有关自定义编辑器的详细信息，请查看编辑器[文档](https://www.froala.com/wysiwyg-editor/docs)。​
+    
+## 相关下载
 
 - npm: `npm install froala-editor`
 - bower: `bower install froala-wysiwyg-editor`
@@ -80,11 +75,8 @@ For more details on customizing the editor, please check the editor [documentati
 - Vue JS: https://github.com/froala/vue-froala-wysiwyg/
 - Yii2: https://github.com/froala/yii2-froala-editor
 - Wordpress: https://github.com/froala/wordpress-froala-wysiwyg
-
-
-​
-
-## Browser Support
+- ​
+## 浏览器支持
 
 At present, we officially aim to support the last two versions of the following browsers:
 
@@ -96,38 +88,28 @@ At present, we officially aim to support the last two versions of the following 
 - Internet Explorer 10+
 - Safari iOS
 - Chrome, Firefox and Default Browser Android
+- 
+## 资源
 
+- 演示： [www.froala.com/wysiwyg-editor](http://www.froala.com/wysiwyg-editor)
+- 下载页面：[www.froala.com/wysiwyg-editor/download](https://www.froala.com/wysiwyg-editor/download)
+- 文档： [froala.com/wysiwyg-editor/docs](https://www.froala.com/wysiwyg-editor/docs)
+- 授权协议： [www.froala.com/wysiwyg-editor/terms](https://www.froala.com/wysiwyg-editor/terms)
+- 帮助： [wysiwyg-editor.froala.help](https://wysiwyg-editor.froala.help/hc/en-us)
+- 问题：[Repo guidelines](https://github.com/highcharts/highcharts/blob/master/repo-guidelines.md)
 ​
+## 问题报告
 
-## Resources
+我们使用GitHub中的问题作为Froala WYSIWYG HTML编辑器的官方错误跟踪器。 以下是我们希望报告问题的用户的一些建议：
 
-- Demo: [www.froala.com/wysiwyg-editor](http://www.froala.com/wysiwyg-editor)
-- Download Page: [www.froala.com/wysiwyg-editor/download](https://www.froala.com/wysiwyg-editor/download)
-- Documentation:  [froala.com/wysiwyg-editor/docs](https://www.froala.com/wysiwyg-editor/docs)
-- License Agreement: [www.froala.com/wysiwyg-editor/terms](https://www.froala.com/wysiwyg-editor/terms)
-- Support: [wysiwyg-editor.froala.help](https://wysiwyg-editor.froala.help/hc/en-us)
-- Issues [Repo guidelines](https://github.com/highcharts/highcharts/blob/master/repo-guidelines.md)
+1. 确保您使用的是最新版本的Froala WYSIWYG Editor。 您即将报告的问题可能已在最新的主分支版本中修复：https：//github.com/froala/froala-wysiwyg/tree/master/js。
 
+2. 为问题提供可复写的步骤将会缩短解决时间。[JSFiddle](https://jsfiddle.net)总是受欢迎的。 
+3. 某些问题可能是浏览器特定的，因此在您遇到问题中指定浏览器可能会有所帮助。
 
-​
+## 技术支持或问题
 
-## Reporting Issues
+如果您有任何问题或需要帮助，请与我们[联系](https://www.froala.com/wysiwyg-editor/contact) ，而不是空着问题。
 
-We use GitHub Issues as the official bug tracker for the Froala WYSIWYG HTML Editor. Here are some advices for our users that want to report an issue:
-
-1. Make sure that you are using the latest version of the Froala WYSIWYG Editor. The issue that you are about to report may be already fixed in the latest master branch version: https://github.com/froala/froala-wysiwyg/tree/master/js.
-2. Providing us reproducible steps for the issue will shorten the time it takes for it to be fixed. A [JSFiddle](https://jsfiddle.net) is always welcomed.
-3. Some issues may be browser specific, so specifying in what browser you encountered the issue might help.
-
-
-​
-
-## Technical Support or Questions
-
-If you have questions or need help integrating the editor please [contact us](https://www.froala.com/wysiwyg-editor/contact) instead of opening an issue.
-
-​
-
-## Licensing
-
-In order to use the Froala Editor you have to purchase one of the following licenses according to your needs. You can find more about that on our website on the [pricing plan page](https://www.froala.com/wysiwyg-editor/pricing).
+## 许可
+为了使用Froala编辑器，您必须根据需要购买以下许可证之一。 您可以在我们的网站上的[定价计划页面](https://www.froala.com/wysiwyg-editor/pricing)上找到更多信息
