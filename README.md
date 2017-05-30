@@ -1,10 +1,11 @@
 
-# 一个漂亮的所见即所得(WYSIWYG)富文本编辑器：Froala
+# 一个漂亮的所见即所得(WYSIWYG)富文本编辑器:Froala
 
 本文翻译来自[wysiwyg-editor](https://github.com/froala/wysiwyg-editor)，大家想看原文可以点击此链接或文章下面的【阅读原文】
 
 ## 介绍
-[WYSIWYG HTML编辑器](https://www.froala.com/wysiwyg-editor)：是一款有史以来最强大的JavaScript富文本编辑器。它采用了最新的技术，并利用jQuery和HTML5的巨大优势，创造了出色的编辑体验。拥有非常多的示例让你轻松集成，并让你的用户只爱上它清晰的设计。它能和Ruby On Rails，Django，Angular.js, Meteor,Symgony.CakePHP等集成。具特点下：
+
+[WYSIWYG HTML编辑器](https://www.froala.com/wysiwyg-editor)是一款有史以来最强大的JavaScript富文本编辑器之一。它采用了最新的技术，并利用jQuery和HTML5的巨大优势，创造了出色的编辑体验。拥有非常多的示例让你轻松集成，让你的用户爱上它清晰的设计。它能和Ruby On Rails，Django，Angular.js，Meteor，Symgony.CakePHP等集成，具有如下特点。
 
 - 微小 - 只需添加您需要的插件([30+ 官方插件](https://www.froala.com/wysiwyg-editor/docs/plugins))
 - [客户端框架集成](https://www.froala.com/wysiwyg-editor/docs/framework-plugins/)
@@ -27,11 +28,16 @@
 
 ### 初始化编辑器
 
-Froala WYSIWYG HTML编辑器是一个易于集成和易于使用的插件。它需要[jQuery](http://jquery.com/) 1.11.0或更高版本，以及名为[Font Awesome](http://fortawesome.github.io/Font-Awesome/) 4.4.0的图标字体。您也可以使用旧版本的Font Awesome，但是某些编辑器的图标不会出现。
+Froala WYSIWYG HTML编辑器是一个易于集成和易于使用的插件。它需要[jQuery](http://jquery.com/) 1.11.0或更高版本，以及名为[Font Awesome](http://fortawesome.github.io/Font-Awesome/) 4.4.0的图标字体。你也可以使用旧版本的Font Awesome，但是某些编辑器的图标将不会出现。
 
-以下是如何在textarea上初始化编辑器的基本示例。
+下面是如何在textarea上初始化编辑器的基本示例。
 
-```html
+```
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+ 
     <!-- Include external CSS. -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.25.0/codemirror.min.css">
@@ -39,7 +45,9 @@ Froala WYSIWYG HTML编辑器是一个易于集成和易于使用的插件。它�
     <!-- Include Editor style. -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/froala-editor/2.6.0/css/froala_editor.pkgd.min.css" rel="stylesheet" type="text/css" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/froala-editor/2.6.0/css/froala_style.min.css" rel="stylesheet" type="text/css" />
-
+  </head>
+ 
+  <body>
     <!-- Create a tag that we will use as the editable area. -->
     <!-- You can use a div tag as well. -->
     <textarea></textarea>
@@ -53,23 +61,26 @@ Froala WYSIWYG HTML编辑器是一个易于集成和易于使用的插件。它�
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/froala-editor/2.6.0/js/froala_editor.pkgd.min.js"></script>
  
     <!-- Initialize the editor. -->
-    <script> 
-		$(function() { 
+    <script>
+ 		$(function() { 
 			$('textarea').froalaEditor() 
 		}); 
 	</script>
+
+  </body>
+</html>
 ```
 
 ### 显示编辑内容
 
-要在富文本编辑器之外保留编辑过的HTML的样式，您必须引入以下CSS文件。
+要在富文本编辑器之外保留编辑过的HTML的样式，你必须引入以下CSS文件。
 
 ```
 <!-- CSS rules for styling the element inside the editor such as p, h1, h2, etc. -->
 <link href="../css/froala_style.min.css" rel="stylesheet" type="text/css" />
 ```
 
-此外，您应该确保将编辑的内容放在具有类 fr-view元素中。
+此外，你应该确保将编辑的内容放在类名为fr-view元素中。
 
 ```
 <div class="fr-view">
@@ -78,7 +89,7 @@ Froala WYSIWYG HTML编辑器是一个易于集成和易于使用的插件。它�
 ```
 ### 举个栗子
 
-在富文本编辑器中，可以让图片在块元素之间拖动。
+在此富文本编辑器中，你可以在块级元素之间随意拖动图片，具体代码如下。
 
 HTML
 
@@ -104,15 +115,12 @@ JAVASCRIPT
 </script>
 ```
 
-效果图如下所示
+效果图如下所示。
 
 ![WYSIWYG HTML Editor](https://cloud.githubusercontent.com/assets/20238205/26573912/09b7c2ce-4552-11e7-9687-2e0f5b8080ba.gif)
 
 有关自定义编辑器的详细信息，请查看编辑器[文档](https://www.froala.com/wysiwyg-editor/docs)。
-
-![WYSIWYG HTML Editor](https://cloud.githubusercontent.com/assets/20238205/26570378/da545506-4542-11e7-90de-da29fb5188aa.png)​​
-​
-    
+​​​   
 ## 相关下载
 
 - npm: `npm install froala-editor`
@@ -136,7 +144,7 @@ JAVASCRIPT
 ​
 ## 浏览器支持
 
-我们正在积极测试编辑器在所有主要浏览器兼容。在下面列出的浏览器中，如有任何问题请当作bug报告为我们的GitHub库。
+我们正在积极测试编辑器在所有主要浏览器兼容性。在下面列出的浏览器中，如有任何问题请当作bug反馈到我们的GitHub库。
 
 - Internet Explorer 10+
 - Safari 6+
