@@ -165,28 +165,29 @@ JAVASCRIPT
 ​
 ## 问题报告
 
-我们使用GitHub中的问题作为Froala WYSIWYG HTML编辑器的官方错误跟踪器。 以下是我们希望报告问题的用户的一些建议：
+我们使用GitHub中的问题作为Froala WYSIWYG HTML编辑器的官方错误跟踪器，以下是我们希望报告问题的用户的一些建议：
 
-1. 确保您使用的是最新版本的Froala WYSIWYG Editor。 您即将报告的问题可能已在最新的主分支版本中修复：https：//github.com/froala/froala-wysiwyg/tree/master/js。
+1. 确保您使用的是最新版本的Froala WYSIWYG Editor。 您即将报告的问题可能已在最新的主分支版本中已经修复：https：//github.com/froala/froala-wysiwyg/tree/master/js。
 
 2. 为问题提供可复写的步骤将会缩短解决时间。[JSFiddle](https://jsfiddle.net)总是受欢迎的。 
 3. 某些问题可能是浏览器特定的，因此在您遇到问题中指定浏览器可能会有所帮助。
 
 ## 技术支持或问题
 
-如果您有任何问题或需要帮助，请与我们[联系](https://www.froala.com/wysiwyg-editor/contact) ，而不是空着问题。
+如果您有任何问题或需要帮助，请与我们[联系](https://www.froala.com/wysiwyg-editor/contact)。
 
 ## 许可
-为了使用Froala编辑器，您必须根据需要购买以下许可证之一。 您可以在我们的网站上的[定价计划页面](https://www.froala.com/wysiwyg-editor/pricing)上找到更多信息
+
+为了使用Froala编辑器，您必须根据需求购买以下许可证之一。 您可以在我们的网站上的[定价计划页面](https://www.froala.com/wysiwyg-editor/pricing)找到更多信息。
 
 
 ## 文章回顾
 
-[大公司里怎样开发和部署前端代码？](https://mp.weixin.qq.com/s/Mq6Gd8QXuNbN0pPIFuIxPA)
-
 [ECMAScript modules in browsers](http://mp.weixin.qq.com/s/PVL8kuXBwirbgm6MCpnl5A)
 
 [SQL已经43岁了：盘点8大我们还在使用的理由](https://mp.weixin.qq.com/s/BsL8aWUqr3z2zSYbRtP75Q)
+
+[大公司里怎样开发和部署前端代码？](https://mp.weixin.qq.com/s/Mq6Gd8QXuNbN0pPIFuIxPA)
 
 如对其他文章感兴趣，可以关注大前端工程师</br>
 
