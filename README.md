@@ -25,34 +25,90 @@
 ​
 ## 开始使用
 
-Froala WYSIWYG HTML编辑器需要[jQuery](http://jquery.com/) 1.11.0或更高版本，以及名为[Font Awesome](http://fortawesome.github.io/Font-Awesome/) 4.4.0的图标字体。您也可以使用旧版本的Font Awesome，但是某些编辑器的图标不会出现。 
+### 初始化编辑器
+
+Froala WYSIWYG HTML编辑器是一个易于集成和易于使用的插件。它需要[jQuery](http://jquery.com/) 1.11.0或更高版本，以及名为[Font Awesome](http://fortawesome.github.io/Font-Awesome/) 4.4.0的图标字体。您也可以使用旧版本的Font Awesome，但是某些编辑器的图标不会出现。
+
+以下是如何在textarea上初始化编辑器的基本示例。
 
 ```html
-<!-- Include CSS for icons. -->
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <!-- Include external CSS. -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.25.0/codemirror.min.css">
+ 
+    <!-- Include Editor style. -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/froala-editor/2.6.0/css/froala_editor.pkgd.min.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/froala-editor/2.6.0/css/froala_style.min.css" rel="stylesheet" type="text/css" />
 
-<!-- Include Editor style. -->
-<link href="https://cdnjs.cloudflare.com/ajax/libs/froala-editor/2.5.1/css/froala_editor.pkgd.min.css" rel="stylesheet" type="text/css" />
-<link href="https://cdnjs.cloudflare.com/ajax/libs/froala-editor/2.5.1/css/froala_style.min.css" rel="stylesheet" type="text/css" />
+    <!-- Create a tag that we will use as the editable area. -->
+    <!-- You can use a div tag as well. -->
+    <textarea></textarea>
+ 
+    <!-- Include external JS libs. -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.25.0/codemirror.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.25.0/mode/xml/xml.min.js"></script>
+ 
+    <!-- Include Editor JS files. -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/froala-editor/2.6.0/js/froala_editor.pkgd.min.js"></script>
+ 
+    <!-- Initialize the editor. -->
+    <script> 
+		$(function() { 
+			$('textarea').froalaEditor() 
+		}); 
+	</script>
+```
 
-<!-- Create a tag that we will use as the editable area. -->
-<!-- You can use a div tag as well. -->
-<textarea></textarea>
+### 显示编辑内容
 
-<!-- Include jQuery lib. -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+要在富文本编辑器之外保留编辑过的HTML的样式，您必须引入以下CSS文件。
 
-<!-- Include Editor JS files. -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/froala-editor/2.5.1//js/froala_editor.pkgd.min.js"></script>
+```
+<!-- CSS rules for styling the element inside the editor such as p, h1, h2, etc. -->
+<link href="../css/froala_style.min.css" rel="stylesheet" type="text/css" />
+```
 
-<!-- Initialize the editor. -->
-<script> 
-  $(function() { 
-    $('textarea').froalaEditor() 
-  }); 
+此外，您应该确保将编辑的内容放在具有类 fr-view元素中。
+
+```
+<div class="fr-view">
+  Here comes the HTML edited with the Froala rich text editor.
+</div>
+```
+### 举个栗子
+
+在富文本编辑器中，可以让图片在块元素之间拖动。
+
+HTML
+
+```
+<div id="froala-editor">
+  <h3>Click here to edit the content</h3>
+  <p><img id="edit" class="fr-fil fr-dib" src="/assets/editor/docs/photo14.jpg" alt="Old Clock" width="300"/></p>
+  <p>The image can be dragged only between blocks and not inside them.</p>
+</div>
+```
+
+JAVASCRIPT
+
+```
+<script>
+  $(function() {
+    $('div#froala-editor').froalaEditor({
+      dragInline: false,
+      toolbarButtons: ['bold', 'italic', 'underline', 'insertImage', 'insertLink', 'undo', 'redo'],
+      pluginsEnabled: ['image', 'link', 'draggable']
+    })
+  });
 </script>
 ```
+
+效果图如下
+![WYSIWYG HTML Editor](https://cloud.githubusercontent.com/assets/20238205/26573912/09b7c2ce-4552-11e7-9687-2e0f5b8080ba.gif)
+
 有关自定义编辑器的详细信息，请查看编辑器[文档](https://www.froala.com/wysiwyg-editor/docs)。
+
 ![WYSIWYG HTML Editor](https://cloud.githubusercontent.com/assets/20238205/26570378/da545506-4542-11e7-90de-da29fb5188aa.png)​​
 ​
     
