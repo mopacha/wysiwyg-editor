@@ -1,7 +1,7 @@
 基于HTML5技术的漂亮的富文本编译器WYSIWYG
 https:/www.froala.com/wysiwyg-editor
 
-![WYSIWYG HTML Editor](https://raw.githubusercontent.com/froala/wysiwyg-editor/master/editor.jpg)
+![WYSIWYG HTML Editor](https://cdn0.froala.com/assets/editor/pages/B/tour/tour-3cf16a0c5b3471ef2b56ad7d1aa2d747.svg)
 ​
 
 # [Froala Editor](https://www.froala.com/wysiwyg-editor) 
