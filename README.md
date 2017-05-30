@@ -104,7 +104,8 @@ JAVASCRIPT
 </script>
 ```
 
-效果图如下
+效果图如下所示
+
 ![WYSIWYG HTML Editor](https://cloud.githubusercontent.com/assets/20238205/26573912/09b7c2ce-4552-11e7-9687-2e0f5b8080ba.gif)
 
 有关自定义编辑器的详细信息，请查看编辑器[文档](https://www.froala.com/wysiwyg-editor/docs)。
