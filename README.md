@@ -1,12 +1,10 @@
-基于HTML5技术的漂亮的富文本编译器WYSIWYG
-https:/www.froala.com/wysiwyg-editor
 
-![WYSIWYG HTML Editor](https://cdn0.froala.com/assets/editor/pages/B/tour/tour-3cf16a0c5b3471ef2b56ad7d1aa2d747.svg)
-​
+# 一个漂亮的所见即所得(WYSIWYG)富文本编辑器：Froala
 
-# [Froala Editor](https://www.froala.com/wysiwyg-editor) 
+本文翻译来自[wysiwyg-editor](https://github.com/froala/wysiwyg-editor)，大家想看原文可以点击此链接或文章下面的【阅读原文】
 
-Froala WYSIWYG HTML 编辑器是一款有史以来最强大的JavaScript富文本编辑器。
+## 介绍
+[WYSIWYG HTML编辑器](https://www.froala.com/wysiwyg-editor)：是一款有史以来最强大的JavaScript富文本编辑器。它采用了最新的技术，并利用jQuery和HTML5的巨大优势，创造了出色的编辑体验。拥有非常多的示例让你轻松集成，并让你的用户只爱上它清晰的设计。它能和Ruby On Rails，Django，Angular.js, Meteor,Symgony.CakePHP等集成。具特点下：
 
 - 微小 - 只需添加您需要的插件([30+ 官方插件](https://www.froala.com/wysiwyg-editor/docs/plugins))
 - [客户端框架集成](https://www.froala.com/wysiwyg-editor/docs/framework-plugins/)
@@ -16,7 +14,8 @@ Froala WYSIWYG HTML 编辑器是一款有史以来最强大的JavaScript富文�
 - 简单可扩展- 良好的插件注释使你更容易使用和开发自己的插件
 - 良好的维护 - [持续更新](https://www.froala.com/wysiwyg-editor/changelog)
 - 很好的支持 - [帮助中心](https://wysiwyg-editor.froala.help)
-​
+
+![WYSIWYG HTML Editor](https://raw.githubusercontent.com/froala/wysiwyg-editor/master/editor.jpg)​​
 
 ## 演示
 
@@ -53,7 +52,9 @@ Froala WYSIWYG HTML编辑器需要[jQuery](http://jquery.com/) 1.11.0或更高�
   }); 
 </script>
 ```
-有关自定义编辑器的详细信息，请查看编辑器[文档](https://www.froala.com/wysiwyg-editor/docs)。​
+有关自定义编辑器的详细信息，请查看编辑器[文档](https://www.froala.com/wysiwyg-editor/docs)。
+![WYSIWYG HTML Editor](https://cloud.githubusercontent.com/assets/20238205/26570378/da545506-4542-11e7-90de-da29fb5188aa.png)​​
+​
     
 ## 相关下载
 
@@ -75,20 +76,19 @@ Froala WYSIWYG HTML编辑器需要[jQuery](http://jquery.com/) 1.11.0或更高�
 - Vue JS: https://github.com/froala/vue-froala-wysiwyg/
 - Yii2: https://github.com/froala/yii2-froala-editor
 - Wordpress: https://github.com/froala/wordpress-froala-wysiwyg
-- ​
+​
 ## 浏览器支持
 
-At present, we officially aim to support the last two versions of the following browsers:
+我们正在积极测试编辑器在所有主要浏览器兼容。在下面列出的浏览器中，如有任何问题请当作bug报告为我们的GitHub库。
 
-- Chrome
-- Edge
-- Firefox
-- Safari
-- Opera
 - Internet Explorer 10+
-- Safari iOS
-- Chrome, Firefox and Default Browser Android
-- 
+- Safari 6+
+- Firefox (Current - 1) and Current versions
+- Chrome (Current - 1) and Current versions
+- Opera (Current - 1) and Current versions
+- iOS 7.0+
+- Android 4.0+
+
 ## 资源
 
 - 演示： [www.froala.com/wysiwyg-editor](http://www.froala.com/wysiwyg-editor)
@@ -113,3 +113,16 @@ At present, we officially aim to support the last two versions of the following 
 
 ## 许可
 为了使用Froala编辑器，您必须根据需要购买以下许可证之一。 您可以在我们的网站上的[定价计划页面](https://www.froala.com/wysiwyg-editor/pricing)上找到更多信息
+
+
+## 文章回顾
+
+[大公司里怎样开发和部署前端代码？](https://mp.weixin.qq.com/s/Mq6Gd8QXuNbN0pPIFuIxPA)
+
+[ECMAScript modules in browsers](http://mp.weixin.qq.com/s/PVL8kuXBwirbgm6MCpnl5A)
+
+[SQL已经43岁了：盘点8大我们还在使用的理由](https://mp.weixin.qq.com/s/BsL8aWUqr3z2zSYbRtP75Q)
+
+如对其他文章感兴趣，可以关注大前端工程师</br>
+
+![weixinhao](https://cloud.githubusercontent.com/assets/20238205/26142454/2d2b04bc-3b13-11e7-85d4-cf6d5277722c.png)
